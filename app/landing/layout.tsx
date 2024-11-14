@@ -1,4 +1,4 @@
-import { NavMain } from "@/components/nav-main"
+
 import { LandingMenu } from "@/components/navbar";
 
 export default function DashboardLayout({
@@ -8,7 +8,6 @@ export default function DashboardLayout({
   }) {
     return (
       <section>
-        {/* Include shared UI here e.g. a header or sidebar */}
         <nav></nav>
         <LandingMenu />
         {children}

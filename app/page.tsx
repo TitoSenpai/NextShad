@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import { ArrowRight, CreditCard, Database } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Metadata } from "next";
