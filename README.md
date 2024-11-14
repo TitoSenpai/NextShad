@@ -5,8 +5,6 @@
 ### This is an ongoing project using the latest Nextjs and Shadcn's dashboard template 
 
 
-[![Alt text](https://github.com/nobruf/shadcn-landing-page/raw/main/public/demo-img.jpg)](https://github.com/nobruf/shadcn-landing-page/blob/main/public/demo-img.jpg)
-
 ## Pages
  - [x] Landing Page
 ![db2](https://github.com/user-attachments/assets/9bf3adc1-4d79-406c-a43a-f633e442b12e)
