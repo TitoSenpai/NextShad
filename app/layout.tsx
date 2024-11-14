@@ -27,7 +27,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   // Check if the current route starts with '/dashboard'
   const isDashboard = pathname.startsWith('/dashboard');
-  const asds = pathname.startsWith('/dashboard');
 
 
   return (
