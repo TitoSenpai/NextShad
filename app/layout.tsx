@@ -4,7 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { LandingMenu } from "@/components/navbar";
-import { useRouter } from 'next/navigation';
+
 import { usePathname } from "next/navigation";
 
 const geistSans = localFont({
@@ -21,7 +21,7 @@ const geistMono = localFont({
 
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const router = useRouter();
+
   const pathname = usePathname();
 
 
