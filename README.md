@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# [Nextjs15 Shadcn Landing + Dashboard](https://github.com/TitoSenpai/NextShad)
+## [Shadcn](https://ui.shadcn.com/)  +  [Next.js](https://nextjs.org/)  +  [TypeScript](https://www.typescriptlang.org/)  +  [Tailwind](https://tailwindcss.com/).
 
-First, run the development server:
+### This is an ongoing project using the latest Nextjs and Shadcn's dashboard template 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[![Alt text](https://github.com/nobruf/shadcn-landing-page/raw/main/public/demo-img.jpg)](https://github.com/nobruf/shadcn-landing-page/blob/main/public/demo-img.jpg)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Pages
+ - [x] Landing Page
+![db2](https://github.com/user-attachments/assets/9bf3adc1-4d79-406c-a43a-f633e442b12e)
+ - [x] Landing Page (Dark Mode)
+![db2a](https://github.com/user-attachments/assets/5e255e77-df59-43c6-9870-10253fae839b)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ - [x] Dashboard
+![db1](https://github.com/user-attachments/assets/98f37c1a-d116-4978-8abb-3bb18dd5bd8c)
+ - [x] Dashboard (Dark Mode)
+![db1a](https://github.com/user-attachments/assets/d681b2b6-71b0-445d-9bac-a7a30262b401)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+will be adding new pages daily
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+-   Fully Responsive Design
+-   User Friendly Navigation
+-   Dark Mode
 
-## Deploy on Vercel
+## How to install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[](https://github.com/nobruf/shadcn-landing-page#how-to-install)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1.  Clone this repositoy:
+
+git clone https://github.com/TitoSenpai/NextShad.git
+
+2.  Go into project
+
+ `cd nextshad`
+
+3.  Install dependencies
+
+`pnpm install`
+
+4.  Run project
+
+`pnpm run dev` 
