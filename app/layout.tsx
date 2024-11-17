@@ -23,11 +23,7 @@ const geistMono = localFont({
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 
   const pathname = usePathname();
-
-
-  // Check if the current route starts with '/dashboard'
   const isDashboard = pathname.startsWith('/dashboard');
-
 
   return (
     <html lang="en" suppressHydrationWarning>
@@ -40,14 +36,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           enableSystem={true}
           disableTransitionOnChange
         >
-          {/* Conditionally render LandingMenu */}
           {!isDashboard && <LandingMenu />} 
-          {/* Pass isOpen to Navbar */}
           {children}
         </ThemeProvider>
       </body>
     </html>
   );
 }
-
-// Remove getServerSideProps

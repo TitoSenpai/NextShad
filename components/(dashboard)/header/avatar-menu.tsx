@@ -24,7 +24,8 @@ const AvatarDropdown = () => {
     <DropdownMenuItem>Profile</DropdownMenuItem>
     <DropdownMenuItem>Billing</DropdownMenuItem>
     <DropdownMenuItem>Team</DropdownMenuItem>
-    <DropdownMenuItem>Subscription</DropdownMenuItem>
+    <DropdownMenuSeparator />
+    <DropdownMenuItem>Logout</DropdownMenuItem>
   </DropdownMenuContent>
 </DropdownMenu>
      );

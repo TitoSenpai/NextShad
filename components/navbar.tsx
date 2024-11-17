@@ -10,7 +10,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 import { Button } from "@/components/ui/button"
-import { ModeToggle } from "@/app/dashboard/(header)/theme-toggler"
+import { ModeToggle } from "@/components/(sharedComponents)/theme-toggler"
 
 
 export function LandingMenu() {
@@ -21,26 +21,19 @@ export function LandingMenu() {
           </Link>
     <NavigationMenu className="">
       <NavigationMenuList className="">
-        <NavigationMenuItem className="">
-          
-          
-        </NavigationMenuItem>
-
+        
         <NavigationMenuItem>
           <ModeToggle />
         </NavigationMenuItem>
-
-        <NavigationMenuItem className="hover:bg-transparent">
+        <NavigationMenuItem>
           <Link href="/login" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              <Button>
+              <Button className="bg-gradient-to-t from-black to-gray-600 dark:to-blue-950 text-white">
               Login
               </Button>
             </NavigationMenuLink>
           </Link>
-          
-        </NavigationMenuItem>
-       
+          </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
     </header>
