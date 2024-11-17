@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
-import { ThumbsUp, Tv2Icon } from "lucide-react"
+import { Tv2Icon } from "lucide-react"
 
 export function AdsCard() {
   return (
