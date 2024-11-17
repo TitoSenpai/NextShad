@@ -7,15 +7,14 @@
 
 ## Pages
  - [x] Landing Page
-![db2](https://github.com/user-attachments/assets/9bf3adc1-4d79-406c-a43a-f633e442b12e)
+![lmode2](https://github.com/user-attachments/assets/c65a7c45-7a04-4f3e-a3dc-2f47d3e53baa)
  - [x] Landing Page (Dark Mode)
-![db2a](https://github.com/user-attachments/assets/5e255e77-df59-43c6-9870-10253fae839b)
+![dmode2](https://github.com/user-attachments/assets/b04b9992-5674-4505-911f-2d024039ce29)
 
  - [x] Dashboard
-![db1](https://github.com/user-attachments/assets/98f37c1a-d116-4978-8abb-3bb18dd5bd8c)
+![lmode1](https://github.com/user-attachments/assets/737c9d54-9a95-4786-ba3d-41ad90cadb6f)
  - [x] Dashboard (Dark Mode)
-![db1a](https://github.com/user-attachments/assets/d681b2b6-71b0-445d-9bac-a7a30262b401)
-
+![dmode1](https://github.com/user-attachments/assets/b8cf0457-3a9e-455e-b1d4-233ca681e967)
 
 will be adding new pages daily
 
