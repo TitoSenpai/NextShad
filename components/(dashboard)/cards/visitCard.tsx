@@ -17,7 +17,7 @@ export function VisitorCard() {
         <div className="flex justify-between d-flex"> 
           <div className="flex flex-col space-y-1"> 
             
-            <CardDescription>Today's visitors</CardDescription>
+            <CardDescription>Today&apos;s visitors</CardDescription>
             <CardTitle>4,423</CardTitle>
           </div>
           <span className="border bg-gradient-to-t from-black to-gray-600 dark:to-blue-950 p-4 rounded-md"> 
