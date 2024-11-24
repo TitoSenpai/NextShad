@@ -33,21 +33,38 @@ const data = {
     email: "m@example.com",
     avatar: "/avatars/shadcn.jpg",
   },
-  teams: [
+  template: [
     {
-      name: "Acme Inc",
+      name: "Blog",
       logo: GalleryVerticalEnd,
-      plan: "Enterprise",
+      plan: "Template",
     },
     {
-      name: "Acme Corp.",
+      name: "Landing Page",
       logo: AudioWaveform,
-      plan: "Startup",
+      plan: "Landing",
     },
     {
-      name: "Evil Corp.",
+      name: "Portfolio",
       logo: Command,
-      plan: "Free",
+      plan: "Portfolio",
+    },
+  ],
+  projects: [
+    {
+      name: "Tables",
+      url: "#",
+      icon: Frame,
+    },
+    {
+      name: "Charts",
+      url: "#",
+      icon: PieChart,
+    },
+    {
+      name: "Pages",
+      url: "#",
+      icon: Map,
     },
   ],
   navMain: [
@@ -77,7 +94,26 @@ const data = {
       ],
     },
     {
-      title: "Models",
+      title: "Members",
+      url: "#",
+      icon: Bot,
+      items: [
+        {
+          title: "Genesis",
+          url: "#",
+        },
+        {
+          title: "Explorer",
+          url: "#",
+        },
+        {
+          title: "Quantum",
+          url: "#",
+        },
+      ],
+    },
+    {
+      title: "Pokemons",
       url: "#",
       icon: Bot,
       items: [
@@ -142,30 +178,14 @@ const data = {
       ],
     },
   ],
-  projects: [
-    {
-      name: "Design Engineering",
-      url: "#",
-      icon: Frame,
-    },
-    {
-      name: "Sales & Marketing",
-      url: "#",
-      icon: PieChart,
-    },
-    {
-      name: "Travel",
-      url: "#",
-      icon: Map,
-    },
-  ],
+  
 }
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
     <Sidebar collapsible="icon" {...props}>
       <SidebarHeader>
-        <TeamSwitcher teams={data.teams} />
+        <TeamSwitcher teams={data.template} />
       </SidebarHeader>
       <SidebarContent>
         <NavMain items={data.navMain} />
